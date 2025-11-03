@@ -1,6 +1,4 @@
 
-const num=10;
+const returnSquare=(num)=>{return num**2;}
 
-const returnSquare=()=>{return(num**2);}
-
-console.log (returnSquare());
+console.log (returnSquare(10));
