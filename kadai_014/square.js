@@ -1,6 +1,6 @@
 
 const num=10;
 
-const returnSquare=()=>{console.log(num*num);}
+const returnSquare=()=>{return(num*num);}
 
-returnSquare();
+console.log (returnSquare());
